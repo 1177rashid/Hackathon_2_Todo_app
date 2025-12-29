@@ -1,0 +1,3 @@
+# Phase 1 Todo Application Dependencies
+# Rich library for beautiful terminal output
+rich>=13.0.0
