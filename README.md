@@ -15,7 +15,7 @@ A beautiful, modern CLI-based todo application built with Python and enhanced wi
 
 ### Prerequisites
 
-- Python 3.7 or higher
+- Python 3.13 or higher
 - pip (Python package installer)
 
 ### Setup
