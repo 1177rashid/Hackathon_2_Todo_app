@@ -1,7 +1,17 @@
 {
   "permissions": {
     "allow": [
-      "Bash(pip install:*)"
+      "Bash(pip install:*)",
+      "Bash(.specify/scripts/powershell/create-new-feature.ps1 -Json \"Use the spec-writing skill to generate complete, detailed Phase II specifications for the Hackathon II Todo project.\" -Number 2 -ShortName \"web-auth-specs\")",
+      "Bash(powershell -Command:*)",
+      "Bash(bash -lc:*)",
+      "Bash(.specify/scripts/powershell/setup-plan.ps1 -Json)",
+      "Bash(dir \".specify\\\\scripts\\\\powershell\")",
+      "Bash(alembic revision --autogenerate -m \"Initial migration for Task model\")",
+      "Bash(npm install lucide-react)",
+      "Bash(python -m uvicorn main:app --reload)",
+      "Bash(npm install:*)",
+      "Bash(pkill:*)"
     ]
   }
 }

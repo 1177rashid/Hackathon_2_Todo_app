@@ -1,0 +1,22 @@
+{
+  "name": "phase-2-fullstack",
+  "version": "1.0.0",
+  "description": "Full-stack Todo application with Next.js frontend and FastAPI backend",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && uvicorn main:app --reload",
+    "build:frontend": "cd frontend && npm run build",
+    "build": "npm run build:frontend",
+    "lint": "eslint frontend --fix && pylint backend",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
